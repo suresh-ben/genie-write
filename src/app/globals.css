@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+input:focus, textarea:focus, select:focus, button {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.article-article h1, .article-article h2 {
+    display: none;
+}
